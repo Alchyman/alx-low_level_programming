@@ -7,8 +7,9 @@
 
 
 /**
- * main - Prints if number is positive, zero or negative
- * Return: Always (Success)
+ * main - Entry point
+ * Discription: 'Check for number if it is positive or negative'
+ * Return: always 0
  *
  */
 
@@ -18,7 +19,7 @@ int main(void)
 
 	int n;
 
-	srandtime(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
